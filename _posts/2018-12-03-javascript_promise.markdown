@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript Promise"
-date:       2018-12-03 14:16:45 +0000
+date:       2018-12-03 09:16:45 -0500
 permalink:  javascript_promise
 ---
 

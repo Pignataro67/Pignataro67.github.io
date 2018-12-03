@@ -11,13 +11,18 @@ permalink:  javascript_promise
 	
 	  A Javascript promise can have four results: fulfilled, rejected, pending, and settled. A fulfilled promise is when the action relating to the promise succeeds. A rejected promise is when the action relating to the promise fails. A pending promise is when the action does not fulfill or reject. A settled promise is when the action fulfills or rejects.
    
-	
-   
+
+
+
+
+
+
+
+
+
 	 A promise takes one argument, a callback with two parameters, resolve and reject. It will do something within the callback, maybe something asynchronous, and resolve will be called if everything works. If reject is called it is commonplace to reject with an error object because they capture a stack trace, which make the debugging tools more useful. You can also use .then with a promise. You can give then() two arguments, a callback for a success case and a callback for a failure case. They, then(), can also be chained together to run additional asynchronous actions or transform values. If you return something like a promise, the next then() will wait, and is only called when that promise settles either in success or failure. An example is below:
    
 
-	 
-	 
 var promise = new Promise(function(resolve, reject) {
   resolve(2);
 });

@@ -26,9 +26,8 @@ promise.then(function(val) {
 })
 	 
 	
-	Rejections occur when a promise is explicitly rejected, but can also happen implicitly if an error is thrown in the constructor callback.  A good rule of thumb is to do all your promise-related work inside the promise constructor callback, this way errors are caught and rejected.
+	Rejections occur when a promise is explicitly rejected, but can also happen implicitly if an error is thrown in the <br>constructor callback.  A good rule of thumb is to do all your promise-related work inside the promise constructor <br>callback, this way errors are caught and rejected.
   
 	Lastly, I would like to discuss Promise.resolve(). Promise.resolve() will create a promise that resolves to any value it is given. If you pass it an instance of Promise, it will be returned.  If you pass it something promise-like, with a then(), it creates a Promise that will fulfill or reject the same way. 
-
-
-
+	
+	

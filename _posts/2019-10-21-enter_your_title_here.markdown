@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Enter your title here"
-date:       2019-10-22 00:34:18 +0000
+title:      "A Brief Overview of Bootstrap"
+date:       2019-10-21 20:34:20 -0400
 permalink:  enter_your_title_here
 ---
 

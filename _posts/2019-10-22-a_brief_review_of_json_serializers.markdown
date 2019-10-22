@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A Brief Review of JSON Serializers"
-date:       2019-10-22 21:42:25 +0000
+date:       2019-10-22 17:42:26 -0400
 permalink:  a_brief_review_of_json_serializers
 ---
 
@@ -21,7 +21,7 @@ def show
 end
 ```
 
-In the UserSeralizer, I won't include the 'has many chores' association.
+In the UserSeralizer, I won't include the 'has many goals' association.
 
 ```
 def index

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A  Brief Overview of Bootstrap"
-date:       2019-10-16 16:19:20 +0000
+date:       2019-10-16 12:19:21 -0400
 permalink:  a_brief_overview_of_bootstrap
 ---
 
@@ -18,21 +18,26 @@ Second, you'll run npm install jquery popper.js in the terminal to install the
 
 Lastly, you'll want to use the following lines in your src/index.js file:
 
+```
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+```
 
 The above three steps import the Bootstrap javascript and css capabilities into your app, and now you're ready to start.
 
 With the example below I want to implement a drop down menu bar for my site navigation. The Bootstrap documentation makes it easy to add a button, this is the before:
 
+```
 <Link to='/signup'>Sign Up</Link>
 <Link to='/login'>Log In</Link>
 <Link to='/find'>Find Gym</Link>
+```
 
 By using Bootstrap, I can change the above to the below, with dropdown capability:
 
+```
 <div class="dropdown"> 
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data    toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
     <i class="fas fa-bars"></i> 
@@ -43,6 +48,7 @@ By using Bootstrap, I can change the above to the below, with dropdown capabilit
 		<Link class="dropdown-item" to='/find'>Find Gym</Link> 
 	</div>
 </div>
+```
 
 As you can see, by enclosing the Link tags within a 'dropdown-menu' div, and adding a button with a class 'btn btn-secondary dropdown-toggle', You can now enclose this code in a div class of 'dropdown'. Next you can use Bootstrap’s pre-set js and css to create a dropdown button.
 

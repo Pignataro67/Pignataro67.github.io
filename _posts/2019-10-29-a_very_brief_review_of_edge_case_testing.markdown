@@ -16,7 +16,7 @@ a. Empty string
 b. Excessively long string 
 c. Null as an argument
 
-Testing an integer: 
+2. Testing an integer: 
 a. 0 
 b. Negative numbers 
 c. Excessively high numbers 

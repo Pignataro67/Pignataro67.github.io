@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Learning Algorithms"
-date:       2020-11-16 16:49:51 +0000
+date:       2020-11-16 11:49:52 -0500
 permalink:  learning_algorithms
 ---
 

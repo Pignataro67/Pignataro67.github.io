@@ -1,0 +1,9 @@
+---
+layout: post
+title:      "Learning Algorithms"
+date:       2020-11-16 16:49:51 +0000
+permalink:  learning_algorithms
+---
+
+
+Algorithms can be very intimidating. Early in my job search the word 'Algorithm' would make me cringe.  Part of my problem wasn't neccessarily understanding the answer to the algorithm itself, but getting myself to the answer. I would struggle with talking about and putting my thoughts on solving it into words. The question of the algorithm sounded like lawyer jargon with all the 'nots'. After googling around on how to explain your thoughts in solving algorithms I discovered aptitude tests. Yes aptitude tests, similar to tests I took in Statics class while in college. I took a couple aptitude tests and they helped a lot in understanding what the algorithm was asking for, Specifically, helping me to improve my pseudo coding skills. I practiced a lot of algorithms on Hackerrank. Hackerrank as a website can also feel intimidating but you can view discussions and editorials if you get stuck trying to complete an algorithmic problem.  Viewing the discussions I felt was the most helpful because you will learn other engineers have the same thoughts as you on the algorithms themselves. Practicing algorithms is very helpful when you are doing a tech interview. The algorithms for the interview are generally a lot harder and can make you think they are impossible to solve. I had to take a coding challenge on Hackerrank and discovered it may be harder on a website such as them because you don't have anyone to 'think aloud to' to while solving it. With what is going on now companies are issuing coding challenges through websites such as Hackerrank and you lose that 'sounding board' while you are trying to solve the problem. I enjoy the challenge of solving algorithms and I am very motivated to continue solving them.
